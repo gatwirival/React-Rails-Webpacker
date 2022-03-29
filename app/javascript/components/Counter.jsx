@@ -5,7 +5,7 @@ const Counter = () => {
   const decrease = () => setCount(count-1);
   return (
     <div>
-      <button onClick={decrease}>-</button>
+      <button style={{backgroundColor: "lightblue"}}onClick={decrease}>-</button>
       <span>{count}</span>
       <button onClick={increase}>+</button>
     </div>
